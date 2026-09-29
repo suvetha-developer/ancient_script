@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+*.cover
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Database (runtime — will be recreated)
+backend/database/heritage_ai.db
+
+# Uploaded / processed images (runtime data)
+backend/static/uploads/
+backend/static/processed/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large model binary weights (too big for git)
+# Uncomment below if you want to exclude the model entirely
+# models/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# env files
+.env
+.env.local
+.env.*.local
